@@ -33,3 +33,96 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*-------------------------------------------------*/
+.form {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.form label, 
+.form input, 
+.form button, 
+.form fieldset {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/*-------------------------------------------------*/
+
+.form {
+color: #2E2F42;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 356px;
+}
+
+
+
+/* Стилі для input з класом delay-input */
+.delay-input {
+  display: block;
+  width: 360px;
+  border: 1px solid #808080;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Стилі для input з класом fulfilled-input */
+.fulfilled-input {
+  margin-left: 48px;
+  border: 2px solid #28a745;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Стилі для input з класом rejected-input */
+.rejected-input {
+  margin-left: 48px;
+  border: 2px solid #dc3545;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Стилі для fieldset з класом state-fieldset */
+.state-fieldset {
+  margin-top: 16px;
+  width: 360px;
+  height: 64px;
+  border: 1px solid #808080; /* Змінити розмір рамки */
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form button {
+color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.08em;
+margin-top: 24px;
+border: none;
+background-color: #4E75FF;;
+border-radius: 8px;
+width: 385px;
+height: 45px;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+}
