@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=document.querySelector('input[name="delay"]');t&&t.classList.add("delay-input"),document.querySelectorAll('input[name="state"]').forEach(e=>{e.value==="fulfilled"?e.classList.add("fulfilled-input"):e.value==="rejected"&&e.classList.add("rejected-input")});const d=document.querySelector("fieldset");d&&d.classList.add("state-fieldset")});
+//# sourceMappingURL=2-snackbar-d0ae39cd.js.map
