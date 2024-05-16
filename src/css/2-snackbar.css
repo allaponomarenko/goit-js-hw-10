@@ -57,56 +57,77 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 356px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-left: 356px;
 }
 
 
-
-/* Стилі для input з класом delay-input */
 .delay-input {
-  display: block;
-  width: 360px;
-  border: 1px solid #808080;
-  padding: 10px;
-  margin-top: 8px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+display: block;
+width: 360px;
+border: 1px solid #808080;
+padding: 10px;
+margin-top: 8px;
+border-radius: 4px;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
 }
 
-/* Стилі для input з класом fulfilled-input */
+
+.delay-input:hover {
+border: 1px solid #000;
+}
+
+
+.delay-input:active {
+border: 1px solid #4E75FF;
+}
+
+
 .fulfilled-input {
-  margin-left: 48px;
-  border: 2px solid #28a745;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+margin-left: 48px;
+border-bottom: 2px solid #b5ea7c;
+background-color: #326101;
+padding: 10px;
+border-radius: 4px;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
 }
 
-/* Стилі для input з класом rejected-input */
+
 .rejected-input {
-  margin-left: 48px;
-  border: 2px solid #dc3545;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+margin-left: 58px;
+border-bottom: 2px solid #FFBEBE;
+background: #EF4040;
+padding: 10px;
+border-radius: 4px;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
 }
 
-/* Стилі для fieldset з класом state-fieldset */
+
 .state-fieldset {
-  margin-top: 16px;
-  width: 360px;
-  height: 64px;
-  border: 1px solid #808080; /* Змінити розмір рамки */
-  padding: 10px;
-  border-radius: 4px;
-  font-family: 'Montserrat', sans-serif;
+margin-top: 16px;
+width: 360px;
+height: 64px;
+border: 1px solid #808080;
+padding: 10px;
+border-radius: 4px;
+font-family: 'Montserrat', sans-serif;
 }
+
+
+.state-fieldset:hover {
+border: 1px solid #000000;
+}
+
+
+.state-fieldsetactive {
+border: 1px solid #000000;
+}
+
 
 .form button {
 color: #FFF;
@@ -125,4 +146,9 @@ height: 45px;
 padding: 8px 16px;
 justify-content: center;
 align-items: center;
+}
+
+
+.form button:hover {
+background-color: #6C8CFF;
 }
